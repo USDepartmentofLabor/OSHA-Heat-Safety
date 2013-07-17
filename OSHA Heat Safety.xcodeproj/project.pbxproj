@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D254A1B178B208100C31285 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D254A1A178B208100C31285 /* Cocoa.framework */; };
+		3D254A25178B208100C31285 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D254A23178B208100C31285 /* InfoPlist.strings */; };
+		3D254A27178B208100C31285 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D254A26178B208100C31285 /* main.m */; };
+		3D254A2B178B208100C31285 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3D254A29178B208100C31285 /* Credits.rtf */; };
+		3D254A2E178B208100C31285 /* DOLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D254A2D178B208100C31285 /* DOLAppDelegate.m */; };
+		3D254A31178B208100C31285 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D254A2F178B208100C31285 /* MainMenu.xib */; };
+		3D254A3A178B21EA00C31285 /* masthead_en@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D254A39178B21EA00C31285 /* masthead_en@2x.png */; };
+		3D254A46178B2D1F00C31285 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D254A45178B2D1E00C31285 /* WebKit.framework */; };
+		3D254A48178B333200C31285 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D254A47178B333200C31285 /* CoreLocation.framework */; };
+		3D254A53178C335900C31285 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D254A55178C335900C31285 /* Localizable.strings */; };
+		3D254A5B178C56BF00C31285 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D254A5A178C56BF00C31285 /* XMLReader.m */; };
+		3D254B07178DD40C00C31285 /* heatappweb_en in Resources */ = {isa = PBXBuildFile; fileRef = 3D254B06178DD40C00C31285 /* heatappweb_en */; };
+		3D254B09178DD42300C31285 /* heatappweb_es in Resources */ = {isa = PBXBuildFile; fileRef = 3D254B08178DD42300C31285 /* heatappweb_es */; };
+		3D254B0B178DE50100C31285 /* moreinfo_firstAid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D254B0A178DE50100C31285 /* moreinfo_firstAid@2x.png */; };
+		3D254B10178DE7C800C31285 /* moreinfo_about@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D254B0C178DE7C800C31285 /* moreinfo_about@2x.png */; };
+		3D254B11178DE7C800C31285 /* moreinfo_contact@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D254B0D178DE7C800C31285 /* moreinfo_contact@2x.png */; };
+		3D254B12178DE7C800C31285 /* moreinfo_more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D254B0E178DE7C800C31285 /* moreinfo_more@2x.png */; };
+		3D254B13178DE7C800C31285 /* moreinfo_signs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D254B0F178DE7C800C31285 /* moreinfo_signs@2x.png */; };
+		3D254B15178DE93A00C31285 /* Sun-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D254B14178DE93A00C31285 /* Sun-128.png */; };
+		3D254B17178DED3F00C31285 /* DOLseal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D254B16178DED3F00C31285 /* DOLseal.png */; };
+		3D254B2D178EECC700C31285 /* icon_512x512@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D254B2C178EECC700C31285 /* icon_512x512@2x.png */; };
+		3D254B31178EF1F000C31285 /* oshaheat.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 3D254B30178EF1F000C31285 /* oshaheat.iconset */; };
+		3D254B33178EF1F900C31285 /* oshaheat.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 3D254B32178EF1F900C31285 /* oshaheat.iconset */; };
+		3D254B35178EF27500C31285 /* HeatIndexIcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D254B34178EF27500C31285 /* HeatIndexIcon.jpg */; };
+		3D254B391790732900C31285 /* 200px-Red_Cross_icon.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D254B361790732900C31285 /* 200px-Red_Cross_icon.svg.png */; };
+		3D254B3A1790732900C31285 /* high-temperature-98824_640.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D254B371790732900C31285 /* high-temperature-98824_640.png */; };
+		3D254B3B1790732900C31285 /* Sun_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D254B381790732900C31285 /* Sun_icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D254A17178B208100C31285 /* OSHA Heat Safety.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OSHA Heat Safety.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D254A1A178B208100C31285 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3D254A1D178B208100C31285 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3D254A1E178B208100C31285 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3D254A1F178B208100C31285 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3D254A22178B208100C31285 /* OSHA Heat Safety-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OSHA Heat Safety-Info.plist"; sourceTree = "<group>"; };
+		3D254A24178B208100C31285 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D254A26178B208100C31285 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D254A28178B208100C31285 /* OSHA Heat Safety-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OSHA Heat Safety-Prefix.pch"; sourceTree = "<group>"; };
+		3D254A2A178B208100C31285 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		3D254A2C178B208100C31285 /* DOLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOLAppDelegate.h; sourceTree = "<group>"; };
+		3D254A2D178B208100C31285 /* DOLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOLAppDelegate.m; sourceTree = "<group>"; };
+		3D254A30178B208100C31285 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3D254A39178B21EA00C31285 /* masthead_en@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "masthead_en@2x.png"; sourceTree = "<group>"; };
+		3D254A45178B2D1E00C31285 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		3D254A47178B333200C31285 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3D254A4E178C326E00C31285 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3D254A4F178C326E00C31285 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D254A50178C326F00C31285 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = es; path = es.lproj/Credits.rtf; sourceTree = "<group>"; };
+		3D254A54178C335900C31285 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3D254A56178C336200C31285 /* es */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3D254A59178C56BF00C31285 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		3D254A5A178C56BF00C31285 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
+		3D254B06178DD40C00C31285 /* heatappweb_en */ = {isa = PBXFileReference; lastKnownFileType = folder; path = heatappweb_en; sourceTree = "<group>"; };
+		3D254B08178DD42300C31285 /* heatappweb_es */ = {isa = PBXFileReference; lastKnownFileType = folder; path = heatappweb_es; sourceTree = "<group>"; };
+		3D254B0A178DE50100C31285 /* moreinfo_firstAid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moreinfo_firstAid@2x.png"; sourceTree = "<group>"; };
+		3D254B0C178DE7C800C31285 /* moreinfo_about@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moreinfo_about@2x.png"; sourceTree = "<group>"; };
+		3D254B0D178DE7C800C31285 /* moreinfo_contact@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moreinfo_contact@2x.png"; sourceTree = "<group>"; };
+		3D254B0E178DE7C800C31285 /* moreinfo_more@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moreinfo_more@2x.png"; sourceTree = "<group>"; };
+		3D254B0F178DE7C800C31285 /* moreinfo_signs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moreinfo_signs@2x.png"; sourceTree = "<group>"; };
+		3D254B14178DE93A00C31285 /* Sun-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sun-128.png"; sourceTree = "<group>"; };
+		3D254B16178DED3F00C31285 /* DOLseal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DOLseal.png; sourceTree = "<group>"; };
+		3D254B2C178EECC700C31285 /* icon_512x512@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_512x512@2x.png"; sourceTree = "<group>"; };
+		3D254B30178EF1F000C31285 /* oshaheat.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = oshaheat.iconset; sourceTree = "<group>"; };
+		3D254B32178EF1F900C31285 /* oshaheat.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = oshaheat.iconset; sourceTree = "<group>"; };
+		3D254B34178EF27500C31285 /* HeatIndexIcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = HeatIndexIcon.jpg; path = ../../../../Downloads/HeatIndexIcon.jpg; sourceTree = "<group>"; };
+		3D254B361790732900C31285 /* 200px-Red_Cross_icon.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "200px-Red_Cross_icon.svg.png"; sourceTree = "<group>"; };
+		3D254B371790732900C31285 /* high-temperature-98824_640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "high-temperature-98824_640.png"; sourceTree = "<group>"; };
+		3D254B381790732900C31285 /* Sun_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sun_icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D254A14178B208100C31285 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D254A48178B333200C31285 /* CoreLocation.framework in Frameworks */,
+				3D254A46178B2D1F00C31285 /* WebKit.framework in Frameworks */,
+				3D254A1B178B208100C31285 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D254A0E178B208100C31285 = {
+			isa = PBXGroup;
+			children = (
+				3D254B32178EF1F900C31285 /* oshaheat.iconset */,
+				3D254B2C178EECC700C31285 /* icon_512x512@2x.png */,
+				3D254A47178B333200C31285 /* CoreLocation.framework */,
+				3D254A45178B2D1E00C31285 /* WebKit.framework */,
+				3D254A20178B208100C31285 /* OSHA Heat Safety */,
+				3D254A19178B208100C31285 /* Frameworks */,
+				3D254A18178B208100C31285 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D254A18178B208100C31285 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D254A17178B208100C31285 /* OSHA Heat Safety.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D254A19178B208100C31285 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D254A1A178B208100C31285 /* Cocoa.framework */,
+				3D254A1C178B208100C31285 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D254A1C178B208100C31285 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D254A1D178B208100C31285 /* AppKit.framework */,
+				3D254A1E178B208100C31285 /* CoreData.framework */,
+				3D254A1F178B208100C31285 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		3D254A20178B208100C31285 /* OSHA Heat Safety */ = {
+			isa = PBXGroup;
+			children = (
+				3D254A58178C569200C31285 /* XML Reader */,
+				3D254A57178C346B00C31285 /* Language */,
+				3D254A2C178B208100C31285 /* DOLAppDelegate.h */,
+				3D254A2D178B208100C31285 /* DOLAppDelegate.m */,
+				3D254A2F178B208100C31285 /* MainMenu.xib */,
+				3D254A21178B208100C31285 /* Supporting Files */,
+			);
+			path = "OSHA Heat Safety";
+			sourceTree = "<group>";
+		};
+		3D254A21178B208100C31285 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D254B361790732900C31285 /* 200px-Red_Cross_icon.svg.png */,
+				3D254B371790732900C31285 /* high-temperature-98824_640.png */,
+				3D254B381790732900C31285 /* Sun_icon.png */,
+				3D254B34178EF27500C31285 /* HeatIndexIcon.jpg */,
+				3D254B30178EF1F000C31285 /* oshaheat.iconset */,
+				3D254B16178DED3F00C31285 /* DOLseal.png */,
+				3D254B14178DE93A00C31285 /* Sun-128.png */,
+				3D254B0C178DE7C800C31285 /* moreinfo_about@2x.png */,
+				3D254B0D178DE7C800C31285 /* moreinfo_contact@2x.png */,
+				3D254B0E178DE7C800C31285 /* moreinfo_more@2x.png */,
+				3D254B0F178DE7C800C31285 /* moreinfo_signs@2x.png */,
+				3D254B0A178DE50100C31285 /* moreinfo_firstAid@2x.png */,
+				3D254B08178DD42300C31285 /* heatappweb_es */,
+				3D254B06178DD40C00C31285 /* heatappweb_en */,
+				3D254A55178C335900C31285 /* Localizable.strings */,
+				3D254A39178B21EA00C31285 /* masthead_en@2x.png */,
+				3D254A22178B208100C31285 /* OSHA Heat Safety-Info.plist */,
+				3D254A23178B208100C31285 /* InfoPlist.strings */,
+				3D254A26178B208100C31285 /* main.m */,
+				3D254A28178B208100C31285 /* OSHA Heat Safety-Prefix.pch */,
+				3D254A29178B208100C31285 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D254A57178C346B00C31285 /* Language */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Language;
+			sourceTree = "<group>";
+		};
+		3D254A58178C569200C31285 /* XML Reader */ = {
+			isa = PBXGroup;
+			children = (
+				3D254A59178C56BF00C31285 /* XMLReader.h */,
+				3D254A5A178C56BF00C31285 /* XMLReader.m */,
+			);
+			name = "XML Reader";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D254A16178B208100C31285 /* OSHA Heat Safety */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D254A34178B208200C31285 /* Build configuration list for PBXNativeTarget "OSHA Heat Safety" */;
+			buildPhases = (
+				3D254A13178B208100C31285 /* Sources */,
+				3D254A14178B208100C31285 /* Frameworks */,
+				3D254A15178B208100C31285 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OSHA Heat Safety";
+			productName = "OSHA Heat Safety";
+			productReference = 3D254A17178B208100C31285 /* OSHA Heat Safety.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D254A0F178B208100C31285 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DOL;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "U.S. Department of Labor";
+			};
+			buildConfigurationList = 3D254A12178B208100C31285 /* Build configuration list for PBXProject "OSHA Heat Safety" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				es,
+			);
+			mainGroup = 3D254A0E178B208100C31285;
+			productRefGroup = 3D254A18178B208100C31285 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D254A16178B208100C31285 /* OSHA Heat Safety */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D254A15178B208100C31285 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D254A25178B208100C31285 /* InfoPlist.strings in Resources */,
+				3D254A2B178B208100C31285 /* Credits.rtf in Resources */,
+				3D254A31178B208100C31285 /* MainMenu.xib in Resources */,
+				3D254A3A178B21EA00C31285 /* masthead_en@2x.png in Resources */,
+				3D254A53178C335900C31285 /* Localizable.strings in Resources */,
+				3D254B07178DD40C00C31285 /* heatappweb_en in Resources */,
+				3D254B09178DD42300C31285 /* heatappweb_es in Resources */,
+				3D254B0B178DE50100C31285 /* moreinfo_firstAid@2x.png in Resources */,
+				3D254B10178DE7C800C31285 /* moreinfo_about@2x.png in Resources */,
+				3D254B11178DE7C800C31285 /* moreinfo_contact@2x.png in Resources */,
+				3D254B12178DE7C800C31285 /* moreinfo_more@2x.png in Resources */,
+				3D254B13178DE7C800C31285 /* moreinfo_signs@2x.png in Resources */,
+				3D254B15178DE93A00C31285 /* Sun-128.png in Resources */,
+				3D254B17178DED3F00C31285 /* DOLseal.png in Resources */,
+				3D254B2D178EECC700C31285 /* icon_512x512@2x.png in Resources */,
+				3D254B31178EF1F000C31285 /* oshaheat.iconset in Resources */,
+				3D254B33178EF1F900C31285 /* oshaheat.iconset in Resources */,
+				3D254B35178EF27500C31285 /* HeatIndexIcon.jpg in Resources */,
+				3D254B391790732900C31285 /* 200px-Red_Cross_icon.svg.png in Resources */,
+				3D254B3A1790732900C31285 /* high-temperature-98824_640.png in Resources */,
+				3D254B3B1790732900C31285 /* Sun_icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D254A13178B208100C31285 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D254A27178B208100C31285 /* main.m in Sources */,
+				3D254A2E178B208100C31285 /* DOLAppDelegate.m in Sources */,
+				3D254A5B178C56BF00C31285 /* XMLReader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D254A23178B208100C31285 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D254A24178B208100C31285 /* en */,
+				3D254A4F178C326E00C31285 /* es */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3D254A29178B208100C31285 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D254A2A178B208100C31285 /* en */,
+				3D254A50178C326F00C31285 /* es */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		3D254A2F178B208100C31285 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D254A30178B208100C31285 /* en */,
+				3D254A4E178C326E00C31285 /* es */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		3D254A55178C335900C31285 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D254A54178C335900C31285 /* en */,
+				3D254A56178C336200C31285 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D254A32178B208200C31285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3D254A33178B208200C31285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3D254A35178B208200C31285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSHA Heat Safety/OSHA Heat Safety-Prefix.pch";
+				INFOPLIST_FILE = "OSHA Heat Safety/OSHA Heat Safety-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3D254A36178B208200C31285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSHA Heat Safety/OSHA Heat Safety-Prefix.pch";
+				INFOPLIST_FILE = "OSHA Heat Safety/OSHA Heat Safety-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D254A12178B208100C31285 /* Build configuration list for PBXProject "OSHA Heat Safety" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D254A32178B208200C31285 /* Debug */,
+				3D254A33178B208200C31285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D254A34178B208200C31285 /* Build configuration list for PBXNativeTarget "OSHA Heat Safety" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D254A35178B208200C31285 /* Debug */,
+				3D254A36178B208200C31285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D254A0F178B208100C31285 /* Project object */;
+}

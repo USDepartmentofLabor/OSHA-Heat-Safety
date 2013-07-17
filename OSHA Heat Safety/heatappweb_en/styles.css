@@ -1,0 +1,55 @@
+/* Main DOL Heat app style */
+
+/* default stuff */
+html, body { margin:0; padding:0; font: 14px Helvetica; }
+a:link, a:visited { color: #3978d5; }
+a:hover, a:active { color: #333; }
+ul { padding-left: 20px; }
+hr { border:0; border-bottom:2px solid #eee; }
+hr.darker { border-color: #ccc; }
+
+/* core wrap, mostly "hidden" */
+#wrap { width: 100%; /*height: 460px;*/ color: #000; /*border: 1px solid #333; overflow: auto;*/ }
+#wrap-inner { margin-top: 0; padding: 5px; padding-top:0; margin-left:0; padding-left:0; }
+
+#fixedBox {
+	display: none;
+	width: 100%;
+	position: fixed;
+	background-color: #fff;
+	padding-bottom: 5px;
+}
+
+/* blue headings at the top of the app */
+/*#heading { font-size: 13.5px; font-weight: bold; width: 320px; height:21px; background-color: #3978d5; color: #fff; text-align: center; padding-top: 3px; }*/
+#heading { display: none; }
+
+/* main content boxes */
+#content { padding: 5px; /*margin-top:15px;*/ }
+/*#content.topPadding { margin-top:60px; }*/
+#content table td { font-size: 90%; }
+#content table td ul { padding-top: 0; margin-top: 0; }
+#content table td li { padding-top: 5px; }
+#content .note { color: #ff0000; font-size: 90%; }
+.sub-heading { background-color: #666; color: #000; padding: 5px; }
+
+/* heat index box located on precaution pages */
+#heat-index-box { width: 316px; background-color: #eee; color: #666; padding: 5px; font-size: 90%; }
+
+/* risk level container on precaution pages */
+#risk-level { background-color: #eee; color: #666; padding: 5px; font-size: 90%; }
+#risk-level { width: 316px; }
+#risk-level div { float: right; width: 220px; text-align: center; color: #000; font-size: 90%; padding-top: 2px; padding-bottom: 2px; margin-top: -2px; }
+
+#heat_index_val { font-weight:bold; margin-left: 25px; }
+
+/* precaution colors for each "heat index" level*/
+.precaution-lower { background-color: #ffff00; }
+.precaution-moderate { background-color: #fed39c; }
+.precaution-high { background-color: #f78e01; }
+.precaution-extreme { background-color: #fe0000; }
+
+/* More info buttons, displayed on "More Info" page. */
+.more_info_btn { background: url('images/bigBlue.png') no-repeat; width: 300px; height: 29px; text-align: center; margin-bottom:10px; }
+.more_info_btn a:link, .more_info_btn a:visited { display: block; color: #fff; text-decoration: none; padding-top: 5px; }
+.more_info_btn a:hover, .more_info_btn a:active { color: #eee; }

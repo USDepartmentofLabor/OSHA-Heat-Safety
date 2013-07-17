@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'OSHA Heat Safety' target in the 'OSHA Heat Safety' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

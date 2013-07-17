@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>documents</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>About This App.htm</string>
+			<key>lastUsed</key>
+			<date>2011-09-22T16:01:45Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>app.js</string>
+			<key>lastUsed</key>
+			<date>2011-09-22T16:03:45Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Contact OSHA.htm</string>
+			<key>lastUsed</key>
+			<date>2011-09-22T16:03:56Z</date>
+			<key>selected</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>First Aid.htm</string>
+			<key>lastUsed</key>
+			<date>2011-09-22T16:02:12Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>More Detail.htm</string>
+			<key>lastUsed</key>
+			<date>2011-09-22T16:02:15Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>precautions_high.htm</string>
+			<key>lastUsed</key>
+			<date>2011-09-22T16:02:37Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>precautions_lower.htm</string>
+			<key>lastUsed</key>
+			<date>2011-09-22T16:02:51Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>precautions_moderate.htm</string>
+			<key>lastUsed</key>
+			<date>2011-09-22T16:03:07Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>precautions_veryhigh.htm</string>
+			<key>lastUsed</key>
+			<date>2011-09-22T16:03:22Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Signs and Symptoms.htm</string>
+			<key>lastUsed</key>
+			<date>2011-09-22T16:03:43Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>styles.css</string>
+			<key>lastUsed</key>
+			<date>2011-09-22T16:03:44Z</date>
+		</dict>
+	</array>
+	<key>fileHierarchyDrawerWidth</key>
+	<integer>200</integer>
+	<key>metaData</key>
+	<dict/>
+	<key>showFileHierarchyDrawer</key>
+	<true/>
+	<key>windowFrame</key>
+	<string>{{608, 18}, {1229, 894}}</string>
+</dict>
+</plist>

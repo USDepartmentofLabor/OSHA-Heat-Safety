@@ -1,0 +1,57 @@
+/* 
+ Localizable.strings (en)
+ Heat Safety
+ 
+ Created by mkeefe on 8/19/11.
+ Copyright 2011 PixelBit Inc. All rights reserved.
+ */
+
+"HTML_PATH"         = "heatappweb_en";
+"MASTHEAD"          = "masthead_en.png";
+
+"CURRENT"           = "Current";
+"GET_CURRENT"       = "Get Current";
+"GET_TODAY_MAX"     = "Get Today Max";
+"CHANGE_LANGUAGE"   = "Change Language";
+"HOME"              = "Home";
+"MORE_INFO"         = "More Info";
+"MORE_DETAIL"       = "More Detail";
+"BACK"              = "Back";
+
+"OR_ENTER_NUMBERS"  = "Or Enter Numbers";
+"TEMPERATURE"       = "Temperature";
+"HUMIDITY"          = "Humidity";
+"CALCULATE"         = "Calculate";
+"NOAA_DATA_TIME"    = "NOAA Data Time";
+"HEAT_INDEX"        = "Heat Index";
+"RISK_LEVEL"        = "Risk Level";
+"PRECAUTIONS"       = "Precautions";
+
+// Levels
+"LVL_LOWER"         = "LOWER (CAUTION)";
+"LVL_MODERATE"      = "MODERATE";
+"LVL_HIGH"          = "HIGH";
+"LVL_EXTREME"       = "VERY HIGH TO EXTREME";
+
+"CONTACT_OSHA"      = "Contact OSHA";
+"ABOUT_THIS_APP"    = "About This App";
+"NOAA_ALERT"        = "Alert: NOAA weather services only provides updated data every three hours";
+
+"NOAA_TIME"         = "NOAA Data Time:";
+
+"ILLNESS_SIGNS"     = "Heat Illness: Signs and Symptoms";
+"ILLNESS_FIRST_AID" = "Heat Illness: First Aid";
+
+// Alert boxes
+"OK"                = "OK";
+"ALERT"             = "Alert";
+"ERROR"             = "Error";
+"NOTIFICATION"      = "Notification";
+
+"ALERT_TEMP_EMPTY"  = "Please enter a number in the temperature box.";
+"ALERT_HUMID_EMPTY" = "Please enter a number in the relative humidity box.";
+"TEMP_UNDER_80"     = "A heat index value cannot be calculated for temperatures less than 80 degrees Fahrenheit.";
+"HUMID_OVER_100"    = "A heat index value is not accurate for relative humidities greater than 100%.";
+"NOAA_UNAVAILABLE"  = "The NOAA weather data are currently not available, please enter your temperature and relative humidity manually.";
+"NO_GPS"            = "Can not get your location information.";
+"GPS_NOTE"          = "We do not collect your GPS info.";
