@@ -52,6 +52,6 @@
 "ALERT_HUMID_EMPTY" = "Ingrese un número en la casilla de humedad relativa.";
 "TEMP_UNDER_80"     = "Un valor de índice de calor no se puede calcular para temperaturas de menos 80 grados Fahrenheit.";
 "HUMID_OVER_100"    = "Un valor de índice de calor no se puede calcular de la humedad relativa superior al 100%.";
-"NOAA_UNAVAILABLE"  = "Los datos climáticos de NOAA no están disponibles en este momento, por favor ingrese manualmente su temperatura y nivel de humedad.";
+"NOAA_UNAVAILABLE"  = "Los datos climáticos de OpenWeatherMap.org no están disponibles en este momento, por favor ingrese manualmente su temperatura y nivel de humedad.";
 "NO_GPS"            = "No se puede obtener su información de ubicación.";
 "GPS_NOTE"          = "Nosotros no recogemos información de su GPS.";

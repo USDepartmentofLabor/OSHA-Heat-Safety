@@ -52,6 +52,6 @@
 "ALERT_HUMID_EMPTY" = "Please enter a number in the relative humidity box.";
 "TEMP_UNDER_80"     = "A heat index value cannot be calculated for temperatures less than 80 degrees Fahrenheit.";
 "HUMID_OVER_100"    = "A heat index value is not accurate for relative humidities greater than 100%.";
-"NOAA_UNAVAILABLE"  = "The NOAA weather data are currently not available, please enter your temperature and relative humidity manually.";
+"NOAA_UNAVAILABLE"  = "The OpenWeatherMap weather data are currently not available, please enter your temperature and relative humidity manually.";
 "NO_GPS"            = "Can not get your location information.";
 "GPS_NOTE"          = "We do not collect your GPS info.";
